@@ -14,14 +14,14 @@ function Header() {
       <div className="Header">
         <h2 className="Header__title">Lacrei</h2>
         <nav className="Header__links" >
-          <Link to='/'>Home</Link>
-          <Link to='/PessoaUsuaria'>Pessoa Usuária</Link>
-          <Link to='/Profissional'>Profissional</Link>          
+          <Link to='/Frontend_Lacrei/'>Home</Link>
+          <Link to='/Frontend_Lacrei/PessoaUsuaria'>Pessoa Usuária</Link>
+          <Link to='/Frontend_Lacrei/Profissional'>Profissional</Link>          
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/PessoaUsuaria" element={<Usuaria />} />
-          <Route path="/Profissional" element={<Profissional />} />
+          <Route path="/Frontend_Lacrei/" element={<Home />} />
+          <Route path="/Frontend_Lacrei/PessoaUsuaria" element={<Usuaria />} />
+          <Route path="/Frontend_Lacrei/Profissional" element={<Profissional />} />
         </Routes>          
       </div>
     </Router>      
