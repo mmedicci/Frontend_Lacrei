@@ -1,0 +1,42 @@
+.Profissional {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+.Tittle {
+    position:absolute;  
+    width: 341px; 
+    height: 65px;  
+    top: 124px;
+    left: 64px;
+    color: #1f1f1f;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.Body {
+    position:absolute;   
+    width: 550px; 
+    height: 132px;
+    top: 231px;
+    left: 64px;
+    color: #515151;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.Rectangulo {
+    position:absolute;
+    list-style: none;
+    border-left: 8px solid #104e53;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+
+.Image {
+    position: absolute;
+    left: 750px;
+    top: 124px;  
+}

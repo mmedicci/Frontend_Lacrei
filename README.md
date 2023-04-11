@@ -17,5 +17,3 @@ Irá instalar as dependências do projeto nas pastas
 npm: react-router-dom: para as routas no react; @fontsource/nunito: para o tipo de fonte
 
 Para iniciar o projeto abra http://127.0.0.1:5173/ para ver o projeto rodando em seu navegador.
-
-# Frontend_Lacrei

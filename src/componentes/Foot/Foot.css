@@ -1,0 +1,65 @@
+.Foot {
+    position:absolute;
+    width: 1238px;
+    height: 1px;
+    left: 63.94px;
+    top: 561px;
+    background: #b0e0d3;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.Footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    gap: 50px;
+    position: absolute;
+    height: 80px;
+  }
+
+  .Footer__links > a {
+    text-decoration: none;    
+    color:#2d5c4e;
+  }
+
+  a:active {
+    color:#018762;
+}
+
+.Redes{
+    position: absolute;
+}
+
+.facebook {
+    position: absolute;    
+    top: 70px;      
+}
+
+.instagram {
+    position: absolute;    
+    top: 70px; 
+    left: 70px;  
+}
+
+.linkedin {
+    position: absolute;    
+    top: 70px; 
+    left: 140px;  
+}
+
+.Foot__text {
+    position: absolute;
+    width: 140px;
+    height: 64px;
+    top: 130px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}

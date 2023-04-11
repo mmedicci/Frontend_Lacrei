@@ -1,0 +1,51 @@
+.Header {
+    position:absolute;
+    width: 1600px;
+    height: 60px;
+    left: 0px;
+    top: 0px;   
+    font-family: "Nunito";
+    font-style: normal; 
+    font-weight: 700;
+    background: #EEEEEE;
+   }
+
+  .Header > h2 {
+    position:absolute;
+    width: 89px;
+    height: 45px;
+    left: 64px;
+    bottom: 1px;
+    top: -15px;
+    
+    color: #018762;    
+    font-size: 32px;
+    line-height: 44px; 
+  }
+  
+  .Header__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    position: relative;
+    width: 327px;
+    height: 22.37px;
+    left: 975px;
+    top: 19px; 
+  }
+
+  .Header__links > a {
+    text-decoration: none;    
+    color:#2d5c4e;
+  }
+
+  a:hover {
+      color:rgb(110, 133, 110);
+  }
+
+  
+  
+  
